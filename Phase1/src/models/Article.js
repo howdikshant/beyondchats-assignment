@@ -13,10 +13,9 @@ const articleSchema = new mongoose.Schema(
     updatedContent: String,
 
     sourceUrl: {
-      type: String,
-      unique: true,
-      required: true,
+      type: String
     },
+    
 
     version: {
       type: String,

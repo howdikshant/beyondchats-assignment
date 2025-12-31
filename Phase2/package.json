@@ -1,0 +1,25 @@
+{
+  "name": "phase2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "phase2": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.3",
+    "jsdom": "^27.4.0",
+    "openai": "^6.15.0",
+    "serpapi": "^2.2.1"
+  },
+  "devDependencies": {}
+}

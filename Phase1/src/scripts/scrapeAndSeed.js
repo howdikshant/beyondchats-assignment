@@ -14,6 +14,6 @@ const saveToDB = require("../scraper/saveToDB");
   const oldestBlogs = await scrapeAllBlogs();
   await saveToDB(oldestBlogs);
 
-  console.log("✅ Scraping & seeding completed");
+  console.log("Scraping & seeding completed");
   process.exit(0);
 })();
